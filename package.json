@@ -11,6 +11,8 @@
   "dependencies": {
     "@reduxjs/toolkit": "^2.5.0",
     "admin-panel": "file:",
+    "axios": "^1.7.9",
+    "mongoose": "^8.8.4",
     "next": "15.1.0",
     "next-auth": "^4.24.11",
     "react": "^19.0.0",
