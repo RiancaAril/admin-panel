@@ -8,6 +8,7 @@ import { RiShoppingCartLine } from "react-icons/ri";
 import { usePathname } from "next/navigation";
 import Link from 'next/link';
 
+
 const menus = [
   {
     title:"Dashboard",
@@ -49,10 +50,9 @@ const Sidebar = () => {
       <div className="flex items-center gap-4">
         <img
           className="size-12 rounded-lg"
-          src="/logo.jpg"
-          alt="logo"
+          src="/logoterbaru.jpg"
         />
-        <h2 className="text-[20px] font-semibold">Rianca Aril Pratama</h2>
+        <h2 className="text-[20px] font-semibold">Toko Bojoggede</h2>
       </div>
       <ul className="space-y-4 mt-6">
         {menus.map((menu) => (
